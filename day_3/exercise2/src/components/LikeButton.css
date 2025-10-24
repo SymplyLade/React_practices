@@ -1,0 +1,37 @@
+.like-button {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.like-button button {
+  background: white;
+  border: 2px solid #730f91;
+  color: #16bda1;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.like-button button:hover {
+  background: #19c096;
+  color: white;
+}
+
+.like-button button.liked {
+  background: #39a182;
+  color: white;
+}
+
+.like-button button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.like-button p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
